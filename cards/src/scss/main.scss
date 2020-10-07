@@ -1,0 +1,18 @@
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/helpers';
+@import 'utils/mixins';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/button';
+@import 'components/card';
+
+@import 'pages/index';
